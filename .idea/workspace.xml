@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09ae3e10-f069-4368-a74b-d8df869eb4b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/face.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/face.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -50,6 +51,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\AndyStud\allprojects\ninja_id_project\assets" />
+      <recent name="F:\AndyStud\allprojects\ninja_id_project\fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -68,5 +70,16 @@
       <updated>1648305316328</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
