@@ -17,6 +17,64 @@ class NinjaID extends StatelessWidget {
         centerTitle: true,
         elevation: 0.0,
       ),
+
+    body: Padding(
+      padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
+
+
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+
+          Text(
+            'NAME',
+            style: TextStyle(
+              letterSpacing: 2.0,
+              color: Colors.grey,
+            ),
+          ),
+          SizedBox(height: 10.0),
+          Text(
+            'Vikramaditya',
+            style: TextStyle(
+              color: Colors.amberAccent,
+              fontWeight: FontWeight.bold,
+              fontSize: 28.0,
+              letterSpacing: 2.0,
+            ),
+          ),
+
+
+          SizedBox(height: 30.0),
+
+
+          Text(
+            'AGE AS OF MARCH 31, 2022',
+            style: TextStyle(
+              letterSpacing: 2.0,
+              color: Colors.grey,
+            ),
+          ),
+          SizedBox(height: 10.0),
+          Text(
+            '24',
+            style: TextStyle(
+              color: Colors.amberAccent,
+              fontWeight: FontWeight.bold,
+              fontSize: 28.0,
+              letterSpacing: 2.0,
+            ),
+          ),
+
+
+          SizedBox(height: 30.0),
+
+
+
+
+        ],
+      ),
+    ),
     );
   }
 }
