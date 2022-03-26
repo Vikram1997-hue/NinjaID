@@ -26,6 +26,13 @@ class NinjaID extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
 
+          CircleAvatar(
+            child: Image(
+              image: AssetImage('face.jpg'),
+            ),
+            radius: 50.0,
+          ),
+
           Text(
             'NAME',
             style: TextStyle(
