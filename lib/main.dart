@@ -4,8 +4,16 @@ void main() => runApp(MaterialApp(
   home: Home(),
 ));
 
-class Home extends StatelessWidget {
+class Home extends StatefulWidget {
   //const Home({Key? key}) : super(key: key);
+
+  @override
+  _HomeState createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
+
+  int age = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -18,6 +26,7 @@ class Home extends StatelessWidget {
             letterSpacing: 2.0,
             color: Colors.black,
             fontWeight: FontWeight.bold,
+            fontSize: 23.0,
           ),
         ),
         centerTitle: true,
@@ -84,7 +93,7 @@ class Home extends StatelessWidget {
               height: 7.0,
             ),
             Text(
-              "56",
+              "$age",
               style: TextStyle(
                 color: Colors.red[700],
                 fontWeight: FontWeight.bold,
@@ -146,7 +155,19 @@ class Home extends StatelessWidget {
           ],
         ),
       ),
+
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          setState(() {
+            age++;
+          });
+        },
+        child: Icon(Icons.add),
+        backgroundColor: Colors.red[700],
+      ),
     );
 
   }
 }
+
+
